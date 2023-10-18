@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://intranet.aluswe.com/
+HostUrl=https://s3.amazonaws.com/alu-intranet.hbtn.io/uploads/medias/2020/9/fe2e3e7701dec72ce612472dab9bb55fe0e9f6d4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUZTW2RLVB%2F20231018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231018T143121Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=48007d8520442334845590f00486ff083885aaa58b1038bf7c6df88c75ea0d57

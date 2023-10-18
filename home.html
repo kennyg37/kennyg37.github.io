@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ken Ganza - Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Ken Ganza">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="start-page">
+        <h1>Welcome to Ken Ganza's Page</h1>
+        <div class="scroll-down-arrow">
+            <div class="arrow"></div>
+            <div class="text">Scroll Down</div>
+        </div>
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="images/contest.jpg" height="200px" width="200px" alt="Image 1">
+            </div>
+            <div class="slide fade">
+                <img src="images/clone.jpg" height="200px" width="200px" alt="Image 2">
+            </div>
+            
+        </div>
+        
+        
+    </section>
+    <section id="projects" class="section-2">
+        <div class="quick-des">
+            <div class="category">
+                <h3>Projects</h3>
+                <ul>
+                  <li>
+                    <h4>Html and Css contest 2023</h4>
+                    <p>Participated in the html contest to make a responsive website comprised only of html and css <a href="https://github.com/kennyg37/alu_html_css_contest_group13">here</a></p>
+                    <img src="images/contest.jpg"  alt="html css contest">
+                  </li>
+                  <li>
+                    <h4>Airbnb clone</h4>
+                    <p>Created a clone of the reputable Airbnb website using a python console, html5, css and javascript. <a href="https://github.com/kennyg37/alu-AirBnB_clone_v2">here</a></p>
+                    <img src="images/clone.jpg" alt="web clone">
+                  </li>
+                  <li>
+                    <h4>Python applications</h4>
+                    <p>Created various python applications including a snake game using pygame module. <a href="https://github.com/kennyg37/"> find them here </a></p>
+                    <img src="images/python.jpg" alt="python">
+                  </li>
+                </ul>
+              </div>
+                
+            </div>
+        </div>
+    </section>
+    <section id="about" class="section-2">
+        <div class="quick-des">
+            <div class="media1-panel">
+                <div id="media-1">
+                    <img src="images/ken.jpg" alt="About Ken Ganza">
+                </div>
+                <h2>About Ken Ganza</h2>
+                <p>Ken Ganza is a 20-year-old Rwandan currently pursuing a bachelor's degree in Software Engineering at the African Leadership University. He is a passionate software developer and a tech enthusiast. He has been involved in various projects that can be found on his <a href="#projects">Projects</a> page. He is also a member of the ALU Robotics Club and the ALU Software Engineering Club.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section-2">
+        <div class="contact-me">
+            <h2>Contact Me</h2>
+            <p>If you have any questions or would like to get in touch, feel free to contact me through the following channels:</p>
+            <ul class="links">
+                <li><a href="https://www.linkedin.com/in/ken-ganza-0b0b3a1b2/"><i class='bx bxl-linkedin-square' ></i></a></li>
+                <li><a href="https://www.github.com/kennyg37"><i class='bx bxl-github'></i></a></li>
+                <li><a href="https://www.twitter.com/grikrr"><i class='bx bxl-twitter'></i></a></li>
+                <li><a href="https://www.instagram.com/kenny_g37"><i class='bx bxl-instagram'></i></a></li>
+                
+            </ul>
+        </div>
+    </section>
+    <footer>
+            <div>
+                <h2>You can also fill the following form</h2>
+                <h3>Contact Form</h3>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+        
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+       
+        
+        <div>
+            <p id="copyright">&copy; 2023 Ken Ganza</p>
+        </div>
+    </footer>
+</body>
+</html>
